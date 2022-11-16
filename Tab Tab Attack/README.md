@@ -4,35 +4,36 @@
 
 ## STEPS
 #### unzip file
-'''
+```
 unzip Addadshashanammu.zip
-'''
+```
 
 #### Check if directory / executable
-'''
+```
 ls -l
-'''
-or
-'''
+``` 
+or 
+```
 file filename
-'''
+```
 
 #### Shown directory, then dive in
-'''
+```
 cd + "tab" -tab to autocomplete
-'''
+```
 
 ### Until reached file, check file content
-'''
-subl file <- shd cat first as execute are more easily shown on terminal
-'''
+```
+subl file  <- shd cat first as execute are more easily shown on terminal
+``` 
 
 #### cat file
 
 -> file is executable, so ran it
-'''
+```
 ./file
-'''
+```
+-> shown Flag
 
 ## FOUNDINGS
 - Unzip file in linux by "unzip fileName"

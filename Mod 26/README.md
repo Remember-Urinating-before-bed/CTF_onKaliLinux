@@ -10,11 +10,11 @@
 ROT13 -> rotate by 13 places (e.g. A->N, Z->M)
 
 #### Solve Cryptography by python
-'''
+```
 python 
 import codecs <- codecs used to decrypt
 codecs.encode("input", "rot_13")
-'''
+```
 
 ## FOUNDINGS
 - ROT13 = rotate by 13 place (e.g. A->N, Z->M)

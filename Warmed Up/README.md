@@ -5,10 +5,10 @@
 ## STEPS
 #### Given 0x3D, find in decimal
 Googled hex to dec
-'''
+```
 python
 int("3D", base=16)
-'''
+```
 
 ## FOUNGINGS
-- Conversion of base by '''int(srcNum, base=srcBase)'''
+- Conversion of base by ```int(srcNum, base=srcBase)```
