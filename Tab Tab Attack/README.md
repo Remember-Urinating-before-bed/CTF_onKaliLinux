@@ -2,24 +2,39 @@
 
 #xavier 15/11/2022
 
--> unzip file
-# unzip Addadshashanammu.zip
+## STEPS
+#### unzip file
+'''
+unzip Addadshashanammu.zip
+'''
 
--> check if directory / executable
-# ls -l
+#### Check if directory / executable
+'''
+ls -l
+'''
+or
+'''
+file filename
+'''
 
--> shown directory, then dive in
-# cd + "tab" -tab to autocomplete
+#### Shown directory, then dive in
+'''
+cd + "tab" -tab to autocomplete
+'''
 
--> until reached file, check file content
-# subl file <- shd cat first as execute are more easily shown on terminal
+### Until reached file, check file content
+'''
+subl file <- shd cat first as execute are more easily shown on terminal
+'''
 
-# cat file
+#### cat file
 
 -> file is executable, so ran it
-# ./file
+'''
+./file
+'''
 
-FOUNDINGS
+## FOUNDINGS
 - Unzip file in linux by "unzip fileName"
-- tab to auto complete lower level directory / files
-- executables -> [subl = 16bit num] ,while [cat = random char]
+- tab to auto complete
+- executables -> [in subl = 16 bit num] ,while [in cat = random char]
